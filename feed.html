@@ -9,21 +9,28 @@
     rel="stylesheet" />
 </head>
 <body>
-  <nav>
+  <nav class="navigation">
     <div class="instalogo__column">
-      <img src="images/navLogo.png" />
+      <a href="feed.html"><img src="images/navLogo.png" /></a>
     </div>
-    <div class="search__column">
+    <div class="navigation__search">
+      <i class="fa fa-search" aria-hidden="true"></i>
       <input name="search"
         type="text"
         placeholder="Search"
         required
       />
     </div>
-    <div class="icon__column">
-      <i class="fa fa-compass" aria-hidden="true"></i>
-      <i class="fa fa-heart-o" aria-hidden="true"></i>
-      <i class="fa fa-user-o" aria-hidden="true"></i>
+    <div class="navgation__icons">
+      <a href="explore.html" class="navigation__link">
+        <i class="fa fa-compass" aria-hidden="true"></i>
+      </a>
+      <a href="#" class="navigation__link">
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+      </a>
+      <a href="profil.html" class="navigation__link">
+        <i class="fa fa-user-o" aria-hidden="true"></i>
+      </a>
     </div>
 
 
