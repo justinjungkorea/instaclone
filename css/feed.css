@@ -1,0 +1,40 @@
+.navigation{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.instalogo__column{
+  display: flex;
+  align-items: center;
+  /*margin-left: 10;*/
+  background: #FFFFFF;
+}
+
+.navigation__search{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.navigation__search input{
+  width: 200px;
+  height: 30px;
+}
+.navigation__search input::placeholder{
+  text-align: center;
+  font-size: 13px;
+}
+.navigation__search i{
+  position: absolute;
+  top:14px;
+  left:65px;
+  font-size: 13px;
+}
+.navgation__icons{
+  display: flex;
+  align-items: center;
+}
+.navgation__icons i{
+  margin-right:20px;
+  font-size: 25px;
+  color: #003569;
+}

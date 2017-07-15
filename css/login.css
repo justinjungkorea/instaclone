@@ -16,37 +16,114 @@
   border: 1px solid #e6e6e6;
   margin-bottom: 10px;
   text-align: center;
-  padding:25px;
-}
-.loginbtn{
-  width: 270px;
-  height: 30px;
-}
-
-.main__link{
-  text-decoration: none;
-}
-
-.login__signup{
-  text-decoration: none;
-  color:#3897f0;
-}
-.login__fb{
-  text-decoration: none;
-  color:#385185;
 }
 
 .login__box--transparent {
   border: none;
   background-color: transparent;
 }
-.login__text{
-  font-size: 15px;
+
+#login .login__box:nth-child(2) {
+  padding: 30px 0;
+  box-sizing: border-box;
+  margin-bottom: 35px;
 }
 
+#login .login__box:nth-child(2) a {
+  text-decoration: none;
+  color: #3897f0;
+}
+
+#login .login__box:first-child {
+  padding: 35px 40px;
+  padding-bottom: 42px;
+  box-sizing: border-box;
+}
 .login__appstores {
   margin-top: 20px;
 }
+
 .login__appstore {
   height: 40px;
+}
+
+.login__divider {
+  display: block;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 700;
+  margin: 20px 0;
+  width: 100%;
+  position: relative;
+}
+
+.login__divider:before {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.login__divider:after {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+.login__fb-link {
+  text-decoration: none;
+  color: #385185;
+}
+
+.login__form {
+  margin-top: 10px;
+}
+
+.login__form input {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px 5px 7px 5px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+}
+
+.login__form input:focus {
+  outline: none;
+  border-color: #d4d4d4;
+}
+
+.login__form input[type="submit"] {
+  margin-top: 10px;
+  color: white;
+  font-weight: 700;
+  background: #3897f0;
+  border: 0;
+  cursor: pointer;
+}
+
+.login__form input[type="submit"]:active {
+  background: #2a76bd;
+}
+
+.login__form-box {
+  position: relative;
+}
+
+.login__form-box a {
+  text-decoration: none;
+  position: absolute;
+  top: 12px;
+  right: 7px;
+  font-size: 14px;
+  color: #003569;
 }
