@@ -86,6 +86,7 @@
 .profile__photo-row {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .profile__photo {
@@ -93,7 +94,8 @@
   height: 294px;
   position: relative;
   overflow: hidden;
-  margin: 10px;
+  margin-bottom:10px;
+
 }
 
 .profile__photo img {
@@ -125,9 +127,4 @@
 
 .profile__photo-stat:first-child {
   margin-right: 25px;
-}
-
-.profile__photos{
-  display: flex;
-  max-width: 95%;
 }
