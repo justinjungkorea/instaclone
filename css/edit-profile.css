@@ -23,7 +23,7 @@
 }
 
 .edit-profile__avatar-container {
-  width: 250px;
+  width: 35%;
   display: flex;
   justify-content: flex-end;
   margin-right: 35px;
@@ -40,12 +40,13 @@
 }
 
 .form__row .form__label {
-  width: 250px;
+  width: 35%;
   display: block;
   text-align: right;
   margin-right: 35px;
   font-weight: 700;
 }
+
 
 .form__row input,
 .form__row textarea,
