@@ -4,11 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Edit-pofile | Instaclone</title>
+  <title>Edit Profile | Instaclone</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    rel="stylesheet" />
+  rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
-
 </head>
 <body>
   <nav class="navigation">
@@ -33,90 +32,68 @@
   </nav>
   <main class="edit-profile">
     <header class="edit-profile__header">
-      <div class="edit-profile__info">
-        <img src="images/avatar.jpg" alt="" class="edit-profile__photo">
-        <span class="edit-profile__name">Justin Dong Wook Jung</span>
+      <div class="edit-profile__avatar-container">
+        <img src="images/avatar.jpg"  />
       </div>
+      <h3 class="edit-profile__title">Justin Jung</h3>
     </header>
-    <form class="edit-profile__form">
+    <form class="form">
       <div class="form__row">
-        <label for="name" class="form__name">Name</label>
-        <input id="name" type="text" class="form__input"/>
+        <label for="name" class="form__label">Name</label>
+        <input id="name" type="text" value="JustinKorea">
       </div>
       <div class="form__row">
-        <label for="username" class="form__name">Username</label>
-        <input id="username" type="text" class="form__input"/>
+        <label for="username" class="form__label">Username</label>
+        <input id="username" type="text" value="Justin Dong Wook Jung">
       </div>
       <div class="form__row">
-        <label for="website" class="form__name">Website</label>
-        <input id="website" type="text" class="form__input"/>
+        <label for="website" class="form__label">Website</label>
+        <input id="website" type="text" value="http://google.com/">
       </div>
       <div class="form__row">
-        <label for="bio" class="form__name">Bio</label>
-        <textarea id="bio" class="form__text"></textarea>
-        <span class="form__private">private information</span>
+        <label for="bio" class="form__label">Bio</label>
+        <textarea id="bio">It`s Saturday.</textarea>
       </div>
       <div class="form__row">
-        <label for="email" class="form__name">Website</label>
-        <input id="email" type="email" class="form__input"/>
+        <label for="email" class="form__label">Email</label>
+        <input id="email" type="text" value="jungdw0624@gmail.com">
       </div>
       <div class="form__row">
-        <label for="phone" class="form__name">Phone Number</label>
-        <input id="phone" type="text" class="form__input"/>
+        <label for="phone-number" class="form__label">Phone Number</label>
+        <input id="phone-number" type="text" value="+82-10-3561-0863">
       </div>
       <div class="form__row">
-        <label for="gender" class="form__name">Gender</label>
-        <select id="gender" class="select__gender">
-          <option selected>Male</option>
-          <option>Female</option>
-          <option>Not Specified</option>
+        <label for="gender" class="form__label">Gender</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="cant" selected>Can't remember</option>
         </select>
       </div>
       <div class="form__row">
-        <span for="similar" class="form__name">Similar Account Suggentions</label>
-        <input id="similar" type="checkbox" />
-        <label for="similar" class="form__outside--label">Include your account when recommending similar accounts people might want to follow.</label>
+        <span for="name" class="form__label">Similar Account Suggestions</span>
+        <input id="similar" type="checkbox">
+        <label for="similar" class="form__outside-label">Include your account when recommending similar accounts people might want to follow.</label>
       </div>
       <div class="form__row">
-        <input type="submit"/>
+        <span class="form__label"></span>
+        <input type="submit"  />
       </div>
-
-
     </form>
   </main>
   <footer>
     <nav class="footer__nav">
       <ul class="footer__list">
-        <li class="footer__item">
-          <a href="#" class="footer__link">about us</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">support</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">blog</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">press</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">api</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">jobs</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">privacy</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">terms</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">directory</a>
-        </li>
-        <li class="footer__item">
-          <a href="#" class="footer__link">language</a>
-        </li>
+        <li class="footer__item"><a href="#" class="footer__link">about us</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">support</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">blog</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">press</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">api</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">jobs</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">privacy</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">terms</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">directory</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">language</a></li>
       </ul>
     </nav>
     <span class="footer__copyright">© 2017 instagram</span>
