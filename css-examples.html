@@ -17,19 +17,28 @@ body{
 .box{
   background-color: red;
   width:100%;
-  height: 600px;
+  height: 500%;
   padding: 30px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 .children{
+  position:fixed;
+  top:30px;
   background-color: yellow;
-  width: 27.8%;
-  height: 27.8%;
+  width: 300px;
+  height: 100px;
   border:5px solid green;
+}
+.grandchild{
+  background-color: black;
+  width: 10%;
+  height:10%;
+  position:fixed;
+  top:30px;
+  left:30px;
 }
 /*
 #one{
@@ -42,14 +51,16 @@ body{
 #three{
   align-self:flex-start;
   background-color: black;
-}
-*/
+}*/
+
 </style>
 
 <body>
 
   <div class="box">
-    <div class="children" id="one"></div>
+    <div class="children" id="one">
+      <div class="grandchild"></div>
+    </div>
     <div class="children" id="two"></div>
     <div class="children" id="three"></div>
   </div>
