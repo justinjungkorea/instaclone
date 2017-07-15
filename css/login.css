@@ -1,0 +1,52 @@
+#login {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login__column {
+  width: 45%;
+}
+
+.login__box {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  text-align: center;
+  padding:25px;
+}
+.loginbtn{
+  width: 270px;
+  height: 30px;
+}
+
+.main__link{
+  text-decoration: none;
+}
+
+.login__signup{
+  text-decoration: none;
+  color:#3897f0;
+}
+.login__fb{
+  text-decoration: none;
+  color:#385185;
+}
+
+.login__box--transparent {
+  border: none;
+  background-color: transparent;
+}
+.login__text{
+  font-size: 15px;
+}
+
+.login__appstores {
+  margin-top: 20px;
+}
+.login__appstore {
+  height: 40px;
+}
