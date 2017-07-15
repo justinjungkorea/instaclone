@@ -4,4 +4,6 @@
 @import "global.css";
 @import "footer.css";
 @import "login.css";
-@import "feed.css";
+@import "navigation.css";
+@import "article.css";
+@import "explore.css";

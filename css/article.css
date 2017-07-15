@@ -1,0 +1,10 @@
+#feed{
+}
+/*600 60*/
+
+.photo__header{
+  display: flex;
+}
+.photo__avatar{
+  border-radius: 50%;
+}
