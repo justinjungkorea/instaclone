@@ -1,0 +1,85 @@
+.profile{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__header{
+  padding: 40px 80px;
+  box-sizing: border-box;
+}
+
+.profile__info{
+  display: flex;
+}
+
+.profile__avatar{
+  border-radius: 50%;
+}
+
+.profile__discription{
+  margin-left: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile__discription--name{
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.profile__counts{
+  display: flex;
+  justify-content:flex-start;
+  margin-bottom: 10px;
+}
+
+.profile__number{
+  margin-left: 35px;
+  margin-right: 2px;
+  font-weight: 700;
+}
+
+#firstnumber{
+  margin-left: 0;
+}
+
+.profile__bio{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__full--name{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.profile__website{
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.profile__discription button{
+  background-color: white;
+  border:1px solid #e6e6e6;
+  color:black;
+  font-weight:700;
+  padding:5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profile__discription button:active,
+.profile__discription button:focus{
+  outline: none;
+}
+.profile__discription button:active{
+  opacity: 0.8;
+}
