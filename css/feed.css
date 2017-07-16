@@ -51,7 +51,8 @@
 .photo__likes {
   font-weight: 700;
   margin-bottom: 15px;
-  display: block;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .photo__icon--container{
@@ -74,6 +75,7 @@
   font-weight: 700;
 }
 
+.photo__comment--number,
 .photo__date {
   margin-bottom: 10px;
   display: block;
@@ -91,6 +93,10 @@
   align-items: center;
 }
 
+.photo__add--comment i{
+  cursor: pointer;
+}
+
 .photo__add--comment textarea {
   border: 0;
   resize: none;
@@ -104,9 +110,59 @@
 }
 
 .heart-click{
+  color: red;
   animation: 1s bump infinite linear;
 }
 
 .comment-click{
   animation: 1s bump infinite linear;
+}
+
+.FeedOverlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+
+}
+
+
+
+.FeedOverlay i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.FeedOverlay-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.FeedOverlay__item {
+  background-color: white;
+  width: 450px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+  transition: background-color .3s ease;
+
+}
+
+.FeedOverlay__item:hover {
+  background-color: #efefef;
+}
+
+.FeedOverlay__item a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #262626;
 }
