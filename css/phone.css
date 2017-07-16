@@ -31,17 +31,85 @@
     display: none;
   }
 
+  .edit-profile,
   .explore{
-    background-color: white;
+    background-color: transparent;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    border:0;
   }
   .explore__user{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: none;
+    border-top: 0;
+  }
+  #login {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #login .login__column:first-child{
+    display: none;
+
+  }
+  #login .login__column:last-child{
+    width:100%;
+  }
+  #login .login__box{
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  #login .login__box:first-child {
+    padding: 0;
+  }
+  #login .login__form input[type="text"],
+  #login .login__form input[type="password"] {
+    background-color: transparent;
+  }
+
+  .profile{
+    width: 90%;
+  }
+
+  .profile__header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile__user-info {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile__name {
+    order: 1;
+    margin-top: 30px;
+  }
+  .profile__bio {
+    order: 2;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .profile__name a,
+  .profile__name h3{
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  .profile__counts {
+    order: 3;
+    margin: 0;
+  }
+
+  .profile__stat {
+    font-size: 15px;
   }
 
 }
