@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta http-equiv="refresh" content="15">
+  <!-- <meta http-equiv="refresh" content="15"> -->
   <title>Feed | Instaclone</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
@@ -42,38 +42,10 @@
       <div class="photo__info">
         <div class="photo__actions">
           <span class="photo__icon--container">
-            <i class="fa fa-heart-o fa-lg"></i>
+            <i class="fa fa-heart-o fa-lg heart"></i>
           </span>
           <span class="photo__icon--container">
-            <i class="fa fa-comment-o fa-lg"></i>
-          </span>
-        </div>
-        <span class="photo__likes">5,200 likes</span>
-        <ul class="photo__comments">
-          <li class="photo__comment">
-            <span class="photo__comment--author">lynn</span> I love Jeju!
-          </li>
-        </ul>
-        <span class="photo__date">7 hours ago</span>
-        <div class="photo__add--comment">
-          <textarea placeholder="Add a comment..."></textarea>
-          <i class="fa fa-ellipsis-h"></i>
-        </div>
-      </div>
-    </article>
-    <article class="photo">
-      <header class="photo__header">
-        <img src="images/avatar.jpg" class="photo__avatar" />
-        <span class="photo__username">JustinJung</span>
-      </header>
-      <img src="images/feedPhoto.jpg" class="photo__image">
-      <div class="photo__info">
-        <div class="photo__actions">
-          <span class="photo__icon--container">
-            <i class="fa fa-heart-o fa-lg"></i>
-          </span>
-          <span class="photo__icon--container">
-            <i class="fa fa-comment-o fa-lg"></i>
+            <i class="fa fa-comment-o fa-lg comment"></i>
           </span>
         </div>
         <span class="photo__likes">5,200 likes</span>
@@ -98,10 +70,38 @@
       <div class="photo__info">
         <div class="photo__actions">
           <span class="photo__icon--container">
-            <i class="fa fa-heart-o fa-lg"></i>
+            <i class="fa fa-heart-o fa-lg heart"></i>
           </span>
           <span class="photo__icon--container">
-            <i class="fa fa-comment-o fa-lg"></i>
+            <i class="fa fa-comment-o fa-lg comment"></i>
+          </span>
+        </div>
+        <span class="photo__likes">5,200 likes</span>
+        <ul class="photo__comments">
+          <li class="photo__comment">
+            <span class="photo__comment--author">lynn</span> I love Jeju!
+          </li>
+        </ul>
+        <span class="photo__date">7 hours ago</span>
+        <div class="photo__add--comment">
+          <textarea placeholder="Add a comment..."></textarea>
+          <i class="fa fa-ellipsis-h"></i>
+        </div>
+      </div>
+    </article>
+    <article class="photo">
+      <header class="photo__header">
+        <img src="images/avatar.jpg" class="photo__avatar" />
+        <span class="photo__username">JustinJung</span>
+      </header>
+      <img src="images/feedPhoto.jpg" class="photo__image">
+      <div class="photo__info">
+        <div class="photo__actions">
+          <span class="photo__icon--container">
+            <i class="fa fa-heart-o fa-lg heart"></i>
+          </span>
+          <span class="photo__icon--container">
+            <i class="fa fa-comment-o fa-lg comment"></i>
           </span>
         </div>
         <span class="photo__likes">5,200 likes</span>
@@ -160,7 +160,10 @@
       </ul>
     </nav>
     <span class="footer__copyright">© 2017 instagram</span>
-</footer><script src="js/app.js"></script>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>

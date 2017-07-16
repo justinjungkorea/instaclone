@@ -102,3 +102,11 @@
 .photo__add--comment textarea:focus {
   outline: none;
 }
+
+.heart-click{
+  animation: 1s bump infinite linear;
+}
+
+.comment-click{
+  animation: 1s bump infinite linear;
+}
