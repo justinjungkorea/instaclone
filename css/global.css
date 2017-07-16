@@ -2,3 +2,7 @@ body {
   background-color: #fafafa;
   font-family: 'Roboto', sans-serif;
 }
+
+main{
+  animation: 1.5s fadein linear;
+}

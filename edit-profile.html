@@ -8,6 +8,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
   rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
+  <meta http-equiv="refresh" content="5">
 </head>
 <body>
   <nav class="navigation">
@@ -19,13 +20,13 @@
       <input type="text" placeholder="Search" class="navigation__input">
     </div>
     <div class="navigation__icons">
-      <a href="explore.html" class="navigation__link">
-        <i class="fa fa-compass"></i>
+      <a href="explore.html" class="navigation__link" id="compass">
+        <i class="fa fa-compass" ></i>
       </a>
-      <a href="#" class="navigation__link">
+      <a href="#" class="navigation__link" id="heart">
         <i class="fa fa-heart-o"></i>
       </a>
-      <a href="profile.html" class="navigation__link">
+      <a href="profile.html" class="navigation__link" id="user">
         <i class="fa fa-user-o"></i>
       </a>
     </div>
@@ -71,7 +72,7 @@
         </select>
       </div>
       <div class="form__row">
-        <label for="similar" class="form__label">            Similar Account Suggestions</label>
+        <label for="similar" class="form__label">Similar Account Suggestions</label>
         <input id="similar" type="checkbox">
         <label for="similar" class="form__outside-label">Include your account when recommending similar accounts people might want to follow.</label>
       </div>

@@ -18,6 +18,17 @@
   color: #262626;
   margin-right: 10px;
   text-decoration: none;
+  display: inline-block;
+}
+
+#compass{
+  animation: .3s menuicons linear;
+}
+#heart{
+  animation: .6s menuicons linear;
+}
+#user{
+  animation: .9s menuicons linear;
 }
 
 .navigation__input {

@@ -63,10 +63,16 @@
 
 .profile__icon {
   font-size: 20px;
+  transition: all 100s linear;
+  cursor: pointer;
 }
 
 .profile__stat {
   margin-right: 20px;
+}
+
+.profile__icon:hover{
+  transform:rotate(100turn);
 }
 
 .profile__number,

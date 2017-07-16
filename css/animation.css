@@ -1,0 +1,54 @@
+  @keyframes rotating {
+  /*from{
+    transform: rotate(0turn);
+  }
+  to{
+    transform: rotate(7turn);
+  }*/
+  0% {
+    transform: translateX(0px) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(500px) scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px) scale(0);
+    opacity: 1;
+  }
+
+}
+
+@keyframes fadein{
+  from{
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeicon{
+  from{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes menuicons {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

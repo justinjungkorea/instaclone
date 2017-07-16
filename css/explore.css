@@ -41,6 +41,7 @@
   box-sizing: border-box;
   border-radius: 5px;
   font-size: 14px;
+  transition: all .5s linear;
   cursor: pointer;
 }
 
@@ -50,6 +51,7 @@
 }
 .explore__user button:active{
   opacity: 0.8;
+  transform: scale(2 , 0.1);
 }
 
 .explore__user:last-child {
